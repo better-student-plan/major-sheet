@@ -130,11 +130,17 @@ p {
 }
 
 @media (max-width: 700px) {
-    .container__sem1 {
+    .container__sem1,
+    .container__sem2,
+    .container__sem3,
+    .container__sem4 {
         flex-direction: column;
     }
 
-    .container__sem1 div {
+    .container__sem1 div,
+    .container__sem2 div,
+    .container__sem3 div,
+    .container__sem4 div {
         margin: 1rem 0;
     }
 }
