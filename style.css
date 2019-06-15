@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Mukta:300,400,700");
 
 .tooltip,
-.container__sources:before,
-.container__build:before,
-.container__deploy:before,
-.container__submit:before {
+.container__sem1:before,
+.container__sem2:before,
+.container__sem3:before,
+.container__sem4:before {
     position: absolute;
     right: 0;
     bottom: 100%;
@@ -17,10 +17,10 @@
 }
 
 .card,
-.container__sources div,
-.container__build div,
-.container__deploy div,
-.container__submit div {
+.container__sem1 div,
+.container__sem2 div,
+.container__sem3 div,
+.container__sem4 div {
     line-height: 2;
     background: #fff;
     padding: 1.2rem 1rem;
@@ -77,7 +77,7 @@ p {
     font-weight: 300;
 }
 
-.container__sources {
+.container__sem1 {
     display: flex;
     border-radius: 8px;
     padding: 1.5rem;
@@ -85,11 +85,11 @@ p {
     position: relative;
 }
 
-.container__sources:before {
+.container__sem1:before {
     content: 'Semester 1';
 }
 
-.container__build {
+.container__sem2 {
     display: flex;
     padding: 1.5rem;
     border-radius: 8px;
@@ -97,24 +97,24 @@ p {
     position: relative;
 }
 
-.container__build:before {
+.container__sem2:before {
     content: 'Semester 2';
 }
 
-.container__build div svg {
+.container__sem2 div svg {
     width: 4rem;
     height: auto;
     fill: #5f39dd;
 }
 
-.container__deploy {
+.container__sem3 {
     display: flex;
     padding: 1.5rem;
     border-radius: 8px;
     background: #f9f9f9;
     position: relative;
 }
-.container__submit{
+.container__sem4{
     display: flex;
     padding: 1.5rem;
     border-radius: 8px;
@@ -122,19 +122,19 @@ p {
     position: relative;  
 }
 
-.container__deploy:before {
+.container__sem3:before {
     content: 'Semester 3';
 }
-.container__submit:before{
+.container__sem4:before{
     content: 'Semester 4';
 }
 
 @media (max-width: 700px) {
-    .container__sources {
+    .container__sem1 {
         flex-direction: column;
     }
 
-    .container__sources div {
+    .container__sem1 div {
         margin: 1rem 0;
     }
 }
